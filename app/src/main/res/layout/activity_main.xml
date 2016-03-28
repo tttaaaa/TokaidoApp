@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context="com.example.yuri.tokaidoapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="195dp"
+        android:layout_height="35dp"
+
+        android:background="@drawable/button1"
+        android:layout_marginBottom="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />__
+
+    <Button
+        android:id="@+id/button1_mouseover"
+        android:layout_width="195dp"
+        android:layout_height="35dp"
+
+        android:background="@drawable/button1_mouseover"
+        android:layout_marginBottom="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="getshindan"/>__
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+
+        android:background="@drawable/button2"
+        android:layout_marginTop="49dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
+
+    <Button
+        android:id="@+id/button2_mouseover"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+
+        android:background="@drawable/button2_mouseover"
+        android:layout_marginTop="49dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1" />
+
+
+</RelativeLayout>
+
